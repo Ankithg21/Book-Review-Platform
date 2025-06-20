@@ -81,33 +81,6 @@ A full-stack book review platform built with Next.js, React, and MongoDB. Users 
 
 The application will automatically connect to MongoDB using the provided connection string. You can seed the database with sample data by running the seeding script (implementation would depend on your setup).
 
-## Project Structure
-
-\`\`\`
-├── app/                          # Next.js App Router pages
-│   ├── api/                      # API routes
-│   │   ├── books/               # Books API endpoints
-│   │   ├── reviews/             # Reviews API endpoints
-│   │   └── users/               # Users API endpoints
-│   ├── books/                   # Book-related pages
-│   ├── profile/                 # User profile page
-│   ├── reviews/                 # Review-related pages
-│   └── layout.tsx               # Root layout
-├── components/                   # Reusable React components
-│   ├── ui/                      # shadcn/ui components
-│   ├── BookCard.tsx
-│   ├── ReviewCard.tsx
-│   ├── SearchBar.tsx
-│   └── ...
-├── contexts/                     # React Context providers
-│   └── BookContext.tsx
-├── lib/                         # Utility functions and configurations
-│   ├── mongodb.ts               # Database connection
-│   ├── types.ts                 # TypeScript type definitions
-│   └── utils.ts                 # Utility functions
-└── scripts/                     # Database seeding and utility scripts
-\`\`\`
-
 ## API Documentation
 
 ### Books API
